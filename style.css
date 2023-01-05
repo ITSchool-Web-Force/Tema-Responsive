@@ -1,0 +1,121 @@
+:root {
+    font-size: 16px;;
+}
+
+body {
+    background: radial-gradient(#c6e8f4, #6d75d0);
+    min-height: 100vh;
+    margin:0;
+}
+
+.wrapper {
+    --margin:1rem;
+
+    background: radial-gradient(rgba(116, 223, 199, 0.3), rgb(255,255,255));
+    border-radius: 0.4rem;
+    box-shadow: 0.7rem 0.5rem 1rem 0.2rem rgba(170,200,200, 0.5);
+    width: 80ch;
+    margin: var(--margin) auto;
+    min-height: calc(100vh - 2 * var(--margin));
+    margin-inline:auto;
+}
+
+
+.navigation {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-inline: 1rem;
+    box-sizing: border-box;
+    border:1rem;
+    gap:1rem;
+    width: 100vmin;
+}
+
+header {
+    display: flex;
+    flex-direction: flex-start;
+    align-items:center;
+    box-sizing: border-box;
+}
+
+.menu-item {
+    text-decoration: none;
+    color: rgb(0,0,0);
+    font-size: 2rem;
+    padding: 0.3rem 0.75rem;
+    display: inline-block;
+    border-inline-end: 0.25rem solid rgb(0,0,0);
+    border-radius: 2rem;
+}
+
+.menu-item.active {
+    background: #ff9494;
+}
+
+#h1 {
+    padding-inline: 1rem 0rem;
+    color:black;
+    font-size:3em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+img {
+    width: 14rem;
+    margin-block: 1rem;
+    border:0;
+}
+
+#container {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border:1rem;
+    margin-block: 2rem auto;
+    margin-inline: 1rem;
+
+}
+
+#vertical {
+    display: flex;
+    flex-direction: column;
+    column-gap: 2rem;
+}
+
+#article1 {
+    text-transform:capitalize;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#article2 {
+    text-transform: capitalize;
+    margin-block-start: 1rem;
+}
+#buton {
+    display: block;
+    background-color: rgb(161, 203, 235);
+    border-radius: 1ch;
+    padding:0.5rem 1rem;
+    color:rgb(255,255,255);
+    text-transform: uppercase;
+    margin-block: 1rem;
+    border:0;
+}
+
+#zona-libera {
+    display: flex;
+    margin-inline:1rem;
+    border:1px solid black;
+    padding:1rem;
+    height: 30ch;
+}
+
+#flori {
+    margin:auto;
+    height:15rem;
+    width:auto;
+}
