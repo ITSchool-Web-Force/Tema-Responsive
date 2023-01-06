@@ -135,16 +135,15 @@ img {
         }
         img {
             order:3;
-            width:20vw;
-            height: auto;
+            height: 35vh;
             }
         #h1 {
             margin-inline-start: 1rem;
         }
         #flori {
             margin:auto;
-            height:15vh;
             width:auto;
+        }
 }
     
 
