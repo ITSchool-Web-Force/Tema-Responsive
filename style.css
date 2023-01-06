@@ -108,9 +108,9 @@ img {
     height:90%;
     }
 
-@media (min-width:512px) {
+@media (min-width:512px) and (max-width:718px) {
         .wrapper {
-            width:60vw;
+            width:80vw;
             height:100vh;
             margin-inline:auto;
             margin-block-start: 1rem;
@@ -137,8 +137,9 @@ img {
             height:25vh;
         }
         img {
+            display:inline-flex;
             order:3;
-            width: 40vw;
+            height: 80%;
             }
         #h1 {
             margin-inline-start: 1rem;
@@ -158,11 +159,12 @@ img {
         #article1 {
             text-transform:capitalize;
             font-weight: bold;
-            font-size: 1rem;
+            font-size: 1.2rem;
         }
         #article2 {
             text-transform: capitalize;
             margin-block-start: 0.7rem;
+            font-size: 0.9rem;
         }
         #flori {
             margin:auto;
@@ -184,11 +186,17 @@ img {
         text-transform: capitalize;
         margin-block-start: 1rem;
     }
+    
     header {
         padding:0;
         flex-direction: row;
         justify-content: flex-start;
     }
+    #container {
+        flex-direction: row;
+        justify-content: space-between;
+    }    
+
     img {
         order:3;
         width: 40vw;
