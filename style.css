@@ -90,12 +90,9 @@ img {
     justify-content: center;
     padding-inline:0;
     border:1px solid black;
-    margin:auto;
 }
 
 #flori {
-    width:50vw;
-    height:auto;
-    margin-inline:0;
-    
+    width:30vw;
+    height:auto;    
 }
