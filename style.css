@@ -120,6 +120,10 @@ img {
         }
         header {
             flex-direction: row;
+            justify-content: flex-start;
+        }
+        .navigation {
+            width:70vw;
             justify-content: flex-end;
         }
         #zona-libera {
