@@ -13,6 +13,7 @@ body {
     padding-inline: 1rem;
     margin:1rem;
     box-sizing: border-box;
+    height:95vh;
 }
 
 
@@ -90,9 +91,10 @@ img {
     justify-content: center;
     padding-inline:0;
     border:1px solid black;
+    margin-block-end:1rem;
 }
 
 #flori {
-    width:30vw;
+    width:10vw;
     height:auto;    
 }
