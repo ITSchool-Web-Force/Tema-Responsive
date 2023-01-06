@@ -129,7 +129,13 @@ img {
             flex-direction: row;
             justify-content: flex-end;
         }
-
+        #zona-libera {
+            display: flex;
+            margin-inline:1rem;
+            border:1px solid black;
+            padding:1rem;
+            height: 30ch;
+        }
         img {
             order:3;
             width:30vw;
@@ -233,11 +239,5 @@ img {
     border:0;
 }
 
-#zona-libera {
-    display: flex;
-    margin-inline:1rem;
-    border:1px solid black;
-    padding:1rem;
-    height: 30ch;
-}
+
 */
