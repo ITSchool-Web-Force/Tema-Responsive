@@ -123,7 +123,6 @@ img {
         #container {
             flex-direction: row;
             height:40vh;
-            border:1px solid pink;
             margin-block-end: 1rem;
         }
         header {
@@ -139,7 +138,7 @@ img {
             margin-inline:1rem;
             border:1px solid black;
             padding:1rem;
-            height:25vh;
+            height:23vh;
         }
         img {
             display:inline-flex;
@@ -151,7 +150,7 @@ img {
             font-size: 1.5em;
         }
         #buton {
-            display: block;
+            display: flex;
             background-color: rgb(161, 203, 235);
             border-radius: 1ch;
             padding:0.5rem 1rem;
@@ -165,11 +164,13 @@ img {
             text-transform:capitalize;
             font-weight: bold;
             font-size: 1.2rem;
+            padding: 0rem 1rem;
         }
         #article2 {
             text-transform: capitalize;
             margin-block-start: 0.7rem;
             font-size: 0.9rem;
+            padding: 0rem 1rem;
         }
         #flori {
             margin:auto;
