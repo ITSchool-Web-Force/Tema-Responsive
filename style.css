@@ -55,9 +55,8 @@ header {
 }
 
 img {
-    height:20%;
-    width:auto;
-    padding-block-end: 1rem;;
+    width:70vw;
+    padding-block-end: 1rem;
 }
 
 #container {
@@ -139,7 +138,7 @@ img {
         }
         img {
             order:3;
-            height: 18vh;
+            width: 40vw;
             }
         #h1 {
             margin-inline-start: 1rem;
@@ -192,7 +191,7 @@ img {
     }
     img {
         order:3;
-        height: 33vh;
+        width: 40vw;
         }
     #zona-libera {
         height:30vh;
