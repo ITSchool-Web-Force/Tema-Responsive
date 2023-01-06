@@ -110,5 +110,27 @@ img {
     }
 
     @media (min-width:512px) {
-        flex-direction: column;
+        .wrapper {
+            width:80ch;
+            height:95vh;
+            margin-inline:auto;
+        }
+
+        #container {
+            flex-direction: row;
+        }
+        header {
+            flex-direction: row;
+            justify-content: flex-end;
+        }
+
+        img {
+            order:3;
+            height: 40vh;
+            width:auto;
+            }
+        }
+        #h1 {
+            margin-inline-start: 1rem;
+        }
     }
