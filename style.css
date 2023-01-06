@@ -114,69 +114,69 @@ img {
     }
 
 @media (min-width:512px) and (max-width:718px) {
-        .wrapper {
-            width:80vw;
-            height:100vh;
-            margin-inline:auto;
-            margin-block-start: 1rem;
+    .wrapper {
+        width:80vw;
+        height:100vh;
+        margin-inline:auto;
+        margin-block-start: 1rem;
         }
-        #container {
-            flex-direction: row;
-            height:40vh;
-            margin-block-end: 1rem;
+    #container {
+        flex-direction: row;
+        height:40vh;
+        margin-block-end: 1rem;
         }
-        header {
-            flex-direction: column;
-            justify-content: flex-start;
+    header {
+        flex-direction: column;
+        justify-content: flex-start;
         }
-        .navigation {
-            width:70vw;
-            justify-content:center;
+    .navigation {
+        width:70vw;
+        justify-content:center;
         }
-        #zona-libera {
-            display: flex;
-            margin-inline:1rem;
-            border:1px solid black;
-            padding:1rem;
-            height:23vh;
+    #zona-libera {
+        display: flex;
+        margin-inline:1rem;
+        border:1px solid black;
+        padding:1rem;
+        height:23vh;
         }
-        img {
-            display:inline-flex;
-            order:3;
-            width:auto;
-            }
-        #h1 {
-            margin-inline-start: 1rem;
-            font-size: 1.5rem;
+    img {
+        display:inline-flex;
+        order:3;
+        width:auto;
         }
-        #buton {
-            display: flex;
-            background-color: rgb(161, 203, 235);
-            border-radius: 1ch;
-            padding:0.3rem 1rem;
-            color:rgb(255,255,255);
-            text-transform: uppercase;
-            border:0;
-            font-size:0.7rem;
-            margin-block-start: 0.7rem;
-            margin-block-end:0;
+    #h1 {
+        margin-inline-start: 1rem;
+        font-size: 1.5rem;
+        }
+    #buton {
+        display: flex;
+        background-color: rgb(161, 203, 235);
+        border-radius: 1ch;
+        padding:0.3rem 1rem;
+        color:rgb(255,255,255);
+        text-transform: uppercase;
+        border:0;
+        font-size:0.7rem;
+        margin-block-start: 0.7rem;
+        margin-block-end:0;
         }
         
-        #article1 {
-            text-transform:capitalize;
-            font-weight: bold;
-            font-size: 1.2rem;
-            padding: 0rem 1rem;
+    #article1 {
+        text-transform:capitalize;
+        font-weight: bold;
+        font-size: 1.2rem;
+        padding: 0rem 1rem;
         }
-        #article2 {
-            text-transform: capitalize;
-            margin-block-start: 0.7rem;
-            font-size: 0.9rem;
-            padding: 0rem 1rem;
+    #article2 {
+        text-transform: capitalize;
+        margin-block-start: 0.7rem;
+        font-size: 0.9rem;
+        padding: 0rem 1rem;
         }
-        #flori {
-            margin:auto;
-            width:auto;
+    #flori {
+        margin:auto;
+        width:auto;
         }
 }
     
