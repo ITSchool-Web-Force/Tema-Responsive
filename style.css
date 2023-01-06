@@ -123,7 +123,7 @@ img {
             margin-block-end: 1rem;
         }
         header {
-            flex-direction: row;
+            flex-direction: column;
             justify-content: flex-start;
         }
         .navigation {
@@ -143,7 +143,7 @@ img {
             }
         #h1 {
             margin-inline-start: 1rem;
-            font-size: 2.5em;
+            font-size: 1.5em;
         }
         #buton {
             display: block;
@@ -159,11 +159,11 @@ img {
         #article1 {
             text-transform:capitalize;
             font-weight: bold;
-            font-size: 1.5rem;
+            font-size: 1rem;
         }
         #article2 {
             text-transform: capitalize;
-            margin-block-start: 1rem;
+            margin-block-start: 0.7rem;
         }
         #flori {
             margin:auto;
@@ -173,7 +173,7 @@ img {
     
 @media (min-width:718px) {
     #h1 {
-        margin-inline-start: 1rem;
+        margin-inline-start: 0rem;
         font-size: 2.5em;
     }
     #article1 {
@@ -185,6 +185,18 @@ img {
         text-transform: capitalize;
         margin-block-start: 1rem;
     }
+    header {
+        padding:0;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    img {
+        order:3;
+        height: 33vh;
+        }
+    #zona-libera {
+        height:30vh;
+        }
 
 }
 
