@@ -127,11 +127,11 @@ img {
             margin-inline:1rem;
             border:1px solid black;
             padding:1rem;
-            height:15vh;
+            height:25vh;
         }
         img {
             order:3;
-            width:30vw;
+            width:20vw;
             height: auto;
             }
         #h1 {
