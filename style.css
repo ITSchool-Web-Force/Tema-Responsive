@@ -152,6 +152,15 @@ img {
             margin-block: 1rem;
             border:0;
         }
+        #article1 {
+            text-transform:capitalize;
+            font-weight: bold;
+            font-size: 2rem;
+        }
+        #article2 {
+            text-transform: capitalize;
+            margin-block-start: 1rem;
+        }
         #flori {
             margin:auto;
             width:auto;
@@ -225,16 +234,7 @@ img {
     column-gap: 2rem;
 }
 
-#article1 {
-    text-transform:capitalize;
-    font-weight: bold;
-    font-size: 2rem;
-}
 
-#article2 {
-    text-transform: capitalize;
-    margin-block-start: 1rem;
-}
 
 
 
