@@ -32,7 +32,7 @@ body {
 
 header {
     display: flex;
-    flex-direction: flex-start;
+    flex-direction: column;
     align-items:center;
     box-sizing: border-box;
 }
@@ -62,7 +62,7 @@ img {
 #container {
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
 }
 
