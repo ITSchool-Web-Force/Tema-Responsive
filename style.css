@@ -82,6 +82,7 @@ img {
     background-color: rgb(161, 203, 235);
     color:rgb(255,255,255);
     text-transform: uppercase;
+    margin:0rem 1rem 1rem;
 }
 
 #zona-libera {
