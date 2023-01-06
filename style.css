@@ -97,8 +97,10 @@ img {
 
 #zona-libera {
     display:flex;
+    flex-direction: row;
     justify-content: center;
     border:1px solid black;
+    padding-block-start: 1rem;
 
 }
 
