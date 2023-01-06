@@ -119,12 +119,12 @@ img {
             flex-direction: row;
         }
         header {
-            flex-direction: row;
+            flex-direction: column;
             justify-content: flex-start;
         }
         .navigation {
             width:70vw;
-            justify-content: flex-end;
+            justify-content:center;
         }
         #zona-libera {
             display: flex;
@@ -135,12 +135,11 @@ img {
         }
         img {
             order:3;
-            height: 35vh;
+            height: 18vh;
             }
         #h1 {
             margin-inline-start: 1rem;
             font-size: 3em;
-            padding-inline: 1rem 0rem;
         }
         #buton {
             display: block;
@@ -152,6 +151,7 @@ img {
             margin-block: 1rem;
             border:0;
         }
+        
         #article1 {
             text-transform:capitalize;
             font-weight: bold;
