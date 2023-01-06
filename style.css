@@ -142,6 +142,16 @@ img {
             font-size: 3em;
             padding-inline: 1rem 0rem;
         }
+        #buton {
+            display: block;
+            background-color: rgb(161, 203, 235);
+            border-radius: 1ch;
+            padding:0.5rem 1rem;
+            color:rgb(255,255,255);
+            text-transform: uppercase;
+            margin-block: 1rem;
+            border:0;
+        }
         #flori {
             margin:auto;
             width:auto;
@@ -225,16 +235,7 @@ img {
     text-transform: capitalize;
     margin-block-start: 1rem;
 }
-#buton {
-    display: block;
-    background-color: rgb(161, 203, 235);
-    border-radius: 1ch;
-    padding:0.5rem 1rem;
-    color:rgb(255,255,255);
-    text-transform: uppercase;
-    margin-block: 1rem;
-    border:0;
-}
+
 
 
 */
