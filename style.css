@@ -98,11 +98,10 @@ img {
 #zona-libera {
     display:flex;
     justify-content: center;
-    padding-inline:0;
     border:1px solid black;
-    margin-block-end:1rem;
+
 }
 
 #flori {
-    height:15vh;    
-}
+    height:25vh;  
+    }
