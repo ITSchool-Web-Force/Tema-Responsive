@@ -37,9 +37,11 @@ header {
 .menu-item {
     text-decoration: none;
     color: rgb(0,0,0);
-    
+    font-size: 1.2rem;
     display: inline-block;
     border-inline-end: 0.25rem solid rgb(0,0,0);
+    padding:0.3rem 0.8rem;
+    border-radius: 1rem;
    
 }
 
