@@ -139,6 +139,8 @@ img {
             }
         #h1 {
             margin-inline-start: 1rem;
+            font-size: 3em;
+            padding-inline: 1rem 0rem;
         }
         #flori {
             margin:auto;
