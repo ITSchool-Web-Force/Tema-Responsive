@@ -210,6 +210,11 @@ img {
     #zona-libera {
         height:32vh;
         }
+    #buton {
+        padding:0.5rem 1rem;
+        border:0;
+        border-radius: 0.3rem;
+    }
 
 }
 
