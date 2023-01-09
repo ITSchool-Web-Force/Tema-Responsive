@@ -146,7 +146,7 @@ img {
         width:auto;
         }
     #h1 {
-        margin-inline-start: 1rem;
+        margin-inline:auto;
         font-size: 1.5rem;
         }
     #buton {
@@ -189,7 +189,7 @@ img {
     }
     
     #h1 {
-        margin-inline-start: 0rem;
+        margin-inline:auto;
         font-size: 2.5em;
     }
     #article1 {
