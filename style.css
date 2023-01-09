@@ -132,7 +132,6 @@ img {
      }
     #zona-libera {
         display: flex;
-        margin-inline: 1rem;
         border: 1px solid black;
         padding: 1rem;
         height: 23vh;
