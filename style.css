@@ -134,7 +134,7 @@ img {
     #zona-libera {
         display: flex;
         border: 1px solid black;
-        height: 30vh;
+        height: 32vh;
     }
     #business {
         display: inline-flex;
@@ -208,7 +208,7 @@ img {
         order: 1;
     }
     #zona-libera {
-        height: 32vh;
+        height: 38vh;
     }
     #buton {
         border: 0;
