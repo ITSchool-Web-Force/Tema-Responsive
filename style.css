@@ -22,6 +22,7 @@ body {
     justify-content: flex-end;
     align-items: center;
     box-sizing: border-box; 
+    flex-grow: 1;
 }
 
 header {
@@ -127,7 +128,7 @@ img {
         justify-content: flex-start;
      }
     .navigation {
-        width: 70vw;
+        flex-grow: 1;
         justify-content: center;
      }
     #zona-libera {
@@ -235,7 +236,7 @@ img {
         box-sizing: border-box;
         border: 1rem;
         gap: 1rem;
-        width: 100vmin;
+        flex-grow:1;
     }
 
 }
