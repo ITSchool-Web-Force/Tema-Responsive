@@ -1,0 +1,233 @@
+
+
+body {
+    background: radial-gradient(#c6e8f4, #6d75d0);
+    min-height: 100vh;
+    margin: 0;
+}
+
+.wrapper {
+    background: radial-gradient(rgba(116, 223, 199, 0.3), rgb(255,255,255));
+    border-radius: 0.4rem;
+    box-shadow: 0.7rem 0.5rem 1rem 0.2rem rgba(170,200,200, 0.5);
+    padding: 1rem;
+    margin: 1rem;
+    box-sizing: border-box;
+}
+
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    box-sizing: border-box; 
+    flex-grow: 1;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding-block-end: 1rem;
+}
+
+.menu-item {
+    text-decoration: none;
+    color: rgb(0,0,0);
+    font-size: 1.2rem;
+    display: inline-block;
+    border-inline-end: 0.25rem solid rgb(0,0,0);
+    padding: 0.3rem 0.8rem;
+    border-radius: 1rem;
+}
+
+.menu-item.active {
+    background: #ff9494;
+}
+
+#h1 {
+    color:black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+img {
+    width: 70vw;
+    padding-block-end: 1rem;
+    margin-inline: auto;
+}
+
+#container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#vertical {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#article1 {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-block-end: 1rem;
+    margin-inline: auto;
+}
+
+#article2 {
+    text-transform: capitalize;
+    padding-block-end: 1rem;
+}
+#buton {
+    display: block;
+    background-color: rgb(161, 203, 235);
+    color:rgb(255,255,255);
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+    border: 0;
+    border-radius: 0.7rem;
+    margin-inline: auto;
+    margin-block-end: 1rem;
+}
+
+#zona-libera {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid black;
+    height: 30vh;
+}
+
+#flori { 
+    margin-block: auto;
+    padding-bottom: 0;
+    height: 90%;
+}
+
+@media (min-width:512px) {
+    .wrapper {
+        width: 80vw;
+        height: 100vh;
+        margin-inline: auto;
+        margin-block-start: 1rem;
+
+    }
+    #container {
+        flex-direction: row;
+        height: 40vh;
+        margin-block-end: 1rem;
+     }
+    header {
+        flex-direction: column;
+        justify-content: flex-start;
+     }
+    .navigation {
+        flex-grow: 1;
+        justify-content: center;
+     }
+    #zona-libera {
+        display: flex;
+        border: 1px solid black;
+        height: 32vh;
+    }
+    #business {
+        display: inline-flex;
+        order: 1;
+        width: auto;
+    }
+    #h1 {
+        margin-inline: auto;
+        font-size: 2rem;
+    }
+    #buton {
+        display: flex;
+        background-color: rgb(161, 203, 235);
+        border-radius: 1ch;
+        padding: 0.3rem 1rem;
+        color:rgb(255,255,255);
+        text-transform: uppercase;
+        border: 0;
+        font-size: 0.7rem;
+        margin-block: 0.7rem 0rem;
+        margin-inline-start: 0rem;
+    }
+        
+    #article1 {
+        text-transform: capitalize;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    #article2 {
+        text-transform: capitalize;
+        margin-block-start: 0.7rem;
+        font-size: 0.9rem;
+    }
+    #flori {
+        margin: auto;
+        width:60vw;
+    }
+}
+    
+@media (min-width:718px) {
+    .wrapper{
+        width: 60vw;
+        height: 100vh;
+        margin-inline: auto;
+    }
+    
+    #h1 {
+        margin-inline: auto;
+        font-size: 2.5em;
+    }
+    #article1 {
+        text-transform: capitalize;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    #article2 {
+        text-transform: capitalize;
+    }
+    
+    header {
+        padding: 0;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    #container {
+        flex-direction: row;
+        justify-content: space-between;
+    }    
+
+    #business {
+        order: 1;
+    }
+    #zona-libera {
+        height: 38vh;
+    }
+    #buton {
+        border: 0;
+        border-radius: 0.3rem;
+    }
+    #flori {
+        margin: auto;
+        width: 45vw;
+    }
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        box-sizing: border-box;
+        gap: 1rem;
+        flex-grow:1;
+    }
+
+}
+
+   
