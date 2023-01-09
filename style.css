@@ -133,8 +133,7 @@ img {
     #zona-libera {
         display: flex;
         border: 1px solid black;
-        padding: 1rem;
-        height: 23vh;
+        height: 30vh;
     }
     #business {
         display: inline-flex;
@@ -143,7 +142,7 @@ img {
     }
     #h1 {
         margin-inline: auto;
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     #buton {
         display: flex;
@@ -170,7 +169,7 @@ img {
     }
     #flori {
         margin: auto;
-        width: auto;
+        width:60vw;
     }
 }
     
