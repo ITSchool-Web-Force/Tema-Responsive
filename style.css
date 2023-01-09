@@ -182,7 +182,6 @@ img {
         width: 60vw;
         height: 100vh;
         margin-inline: auto;
-        margin-block-start: 1rem;
     }
     
     #h1 {
@@ -215,10 +214,8 @@ img {
         height: 32vh;
     }
     #buton {
-        padding: 0.5rem 1rem;
         border: 0;
         border-radius: 0.3rem;
-        margin-inline-start: 0rem;
     }
     #flori {
         margin: auto;
@@ -229,9 +226,7 @@ img {
         flex-direction: row;
         justify-content: flex-end;
         align-items: center;
-        padding-inline: 1rem;
         box-sizing: border-box;
-        border: 1rem;
         gap: 1rem;
         flex-grow:1;
     }
