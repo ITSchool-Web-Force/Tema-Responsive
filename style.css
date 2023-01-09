@@ -102,7 +102,6 @@ img {
     justify-content: center;
     border: 1px solid black;
     height: 30vh;
-
 }
 
 #flori { 
@@ -225,7 +224,7 @@ img {
     }
     #flori {
         margin: auto;
-        width: auto;
+        width: 30vh;
     }
     .navigation {
         display: flex;
