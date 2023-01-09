@@ -113,7 +113,7 @@ img {
     height:90%;
     }
 
-@media (min-width:512px) and (max-width:718px) {
+@media (min-width:512px) {
     .wrapper {
         width:80vw;
         height:100vh;
