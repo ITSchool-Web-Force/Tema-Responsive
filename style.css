@@ -140,7 +140,7 @@ img {
         padding:1rem;
         height:23vh;
         }
-    img {
+    #business {
         display:inline-flex;
         order:1;
         width:auto;
@@ -212,8 +212,8 @@ img {
         justify-content: space-between;
     }    
 
-    img {
-        order:3;
+    #business {
+        order:1;
         width: 25vw;
         }
     #zona-libera {
