@@ -163,13 +163,11 @@ img {
         text-transform: capitalize;
         font-weight: bold;
         font-size: 1.2rem;
-        padding: 0rem 1rem;
     }
     #article2 {
         text-transform: capitalize;
         margin-block-start: 0.7rem;
         font-size: 0.9rem;
-        padding: 0rem 1rem;
     }
     #flori {
         margin: auto;
