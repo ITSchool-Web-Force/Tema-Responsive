@@ -21,8 +21,7 @@ body {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    box-sizing: border-box;
-    
+    box-sizing: border-box; 
 }
 
 header {
@@ -41,7 +40,6 @@ header {
     border-inline-end: 0.25rem solid rgb(0,0,0);
     padding: 0.3rem 0.8rem;
     border-radius: 1rem;
-   
 }
 
 .menu-item.active {
@@ -65,7 +63,6 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
 }
 
 #vertical {
@@ -111,7 +108,7 @@ img {
     margin-block: auto;
     padding-bottom: 0;
     height: 90%;
-    }
+}
 
 @media (min-width:512px) {
     .wrapper {
@@ -119,36 +116,36 @@ img {
         height: 100vh;
         margin-inline: auto;
         margin-block-start: 1rem;
-        }
+    }
     #container {
         flex-direction: row;
         height: 40vh;
         margin-block-end: 1rem;
-        }
+     }
     header {
         flex-direction: column;
         justify-content: flex-start;
-        }
+     }
     .navigation {
         width: 70vw;
         justify-content: center;
-        }
+     }
     #zona-libera {
         display: flex;
         margin-inline: 1rem;
         border: 1px solid black;
         padding: 1rem;
         height: 23vh;
-        }
+    }
     #business {
         display: inline-flex;
         order: 1;
         width: auto;
-        }
+    }
     #h1 {
         margin-inline: auto;
         font-size: 1.5rem;
-        }
+    }
     #buton {
         display: flex;
         background-color: rgb(161, 203, 235);
@@ -160,24 +157,24 @@ img {
         font-size: 0.7rem;
         margin-block: 0.7rem 0rem;
         margin-inline-start: 1rem;
-        }
+    }
         
     #article1 {
         text-transform: capitalize;
         font-weight: bold;
         font-size: 1.2rem;
         padding: 0rem 1rem;
-        }
+    }
     #article2 {
         text-transform: capitalize;
         margin-block-start: 0.7rem;
         font-size: 0.9rem;
         padding: 0rem 1rem;
-        }
+    }
     #flori {
         margin: auto;
         width: auto;
-        }
+    }
 }
     
 @media (min-width:718px) {
@@ -215,10 +212,10 @@ img {
     #business {
         order: 1;
         width: 25vw;
-        }
+    }
     #zona-libera {
         height: 32vh;
-        }
+    }
     #buton {
         padding: 0.5rem 1rem;
         border: 0;
