@@ -7,3 +7,5 @@
 5. Dacă nu reușești să rezolvi complet, poți face commit la ce ai, și vei cere ajutor.
 6. Fă push pe GitHub
 7. Crează un Pull Request la [proiectul principal](https://github.com/ITSchool-Web-Force/Tema-Responsive/pulls)
+
+Nu este finalizata, am pus o pentru a face curatentie in laptop :D
