@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgba(237, 255, 247, 1);
+}
+
+.wrapper {
+  background-color: rgba(168, 192, 255, 0.17);
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.25);
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin-block-end: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: space-around;
+}
+.menu-items .menu-item {
+  text-decoration: none;
+  background-color: white;
+  font-size: 1rem;
+  padding: 0.75rem;
+  color: black;
+  border-radius: 50%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.menu-item.active {
+  background-color: rgba(255, 148, 148, 1);
+}
+
+main {
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pic-business {
+  width: 15rem;
+  height: 20.5rem;
+  padding-bottom: 1rem;
+  order: 2;
+}
+
+.title1 {
+  padding-bottom: 1rem;
+  font-size: 29px;
+  text-transform: capitalize;
+  color: rgba(39, 45, 56, 1);
+}
+
+.text {
+  text-transform: capitalize;
+  font-size: 18px;
+  padding-bottom: 1rem;
+}
+
+.contact {
+  text-transform: uppercase;
+  background-color: rgba(142, 173, 213, 1);
+  color: white;
+  padding: 0.25rem;
+  border: 0 solid rgba(142, 173, 213, 1);
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
+.section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.container1 {
+  border: black 0.15rem solid;
+  gap: 1rem;
+  width: 80vh;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0 1rem 0;
+}
+
+.pic-frontend {
+  width: 20vh;
+  height: 20vh;
+}
+@media (min-width: 501px) {
+  .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .menu-items {
+    justify-content: flex-end;
+    padding: 0.6rem;
+  }
+
+  .menu-items .menu-item {
+    border-right: 0.4rem solid black;
+    border-radius: 50%;
+    background-color: rgba(168, 192, 255, 0.17);
+    box-shadow: none;
+  }
+  .menu-item.active {
+    background-color: rgba(255, 148, 148, 1);
+  }
+  main {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .flex {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .container1 {
+    width: 80vh;
+    height: auto;
+  }
+  .pic-frontend {
+    width: 50vh;
+    height: auto;
+  }
+}
