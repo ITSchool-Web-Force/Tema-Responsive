@@ -1,0 +1,78 @@
+:root {
+  font-size: 10px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background: radial-gradient(circle at 10% 20%,
+  rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
+  margin: 1rem;
+  height: 130vh;
+  box-shadow: 0.5rem 0.8rem 0.6rem 0.1rem;
+}
+.name {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-block-start: 1rem;
+  font-size: 4rem;
+  color: white;
+  font-family:'Courier New', Courier, monospace;
+}
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 2rem;
+  background: radial-gradient(circle at 10% 20%,
+   rgb(69, 86, 102) 0%, rgb(34, 34, 34) 90%);
+}
+.menu-item {
+  text-decoration: none;
+  color: white;
+  margin: 1rem;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 1.5rem;
+  color: grey;
+}
+.section-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.bleach1 {
+  margin: 0.5rem;
+  border: solid 0.2rem white;
+}
+.text1 {
+  font-size: 2rem;
+  color: grey;
+  margin: 1.5rem;
+}
+.bleach2 {
+  margin: 0.5rem;
+  border: solid 0.2rem white;
+}
+@media (min-width:718px) {
+  .bleach1 {
+    min-height: 40vh;
+  }
+  .bleach2 {
+    min-height: 40vh;
+  }
+}
+@media (min-width:950px) {
+  .container {
+    width: 50vw;
+    margin-inline: auto;
+  }
+}
