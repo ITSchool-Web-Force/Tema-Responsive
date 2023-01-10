@@ -115,7 +115,7 @@ main {
   }
   .menu-items {
     justify-content: flex-end;
-    padding: 0.6rem;
+    
   }
 
   .menu-items .menu-item {
@@ -123,6 +123,7 @@ main {
     border-radius: 50%;
     background-color: rgba(168, 192, 255, 0.17);
     box-shadow: none;
+    padding: 0.9rem;
   }
   .menu-item.active {
     background-color: rgba(255, 148, 148, 1);
@@ -137,11 +138,11 @@ main {
     align-items: flex-start;
   }
   .container1 {
-    width: 80vh;
+    width: 60vh;
     height: auto;
   }
   .pic-frontend {
-    width: 50vh;
+    width: 40vh;
     height: auto;
   }
 }
