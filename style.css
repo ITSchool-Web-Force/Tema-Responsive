@@ -31,7 +31,7 @@ body {
 .menu-items {
   display: flex;
   justify-content: space-around;
-  gap: 0.25rem
+  gap: 0.25rem;
 }
 .menu-items .menu-item {
   text-decoration: none;
@@ -50,7 +50,7 @@ body {
 main {
   padding-bottom: 1rem;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -64,11 +64,11 @@ main {
 .pic-business {
   width: 15rem;
   height: 20.5rem;
-  padding-bottom: 1rem;
-  order: 2;
+  padding-bottom: 2rem;
+  padding-top: 1.5rem;
 }
 
-.title1 {
+.digital {
   padding-bottom: 1rem;
   font-size: 29px;
   text-transform: capitalize;
@@ -90,14 +90,14 @@ main {
   border-radius: 0.5rem;
   margin-top: 1rem;
 }
-.section1 {
+.section {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 1rem;
 }
 
-.container1 {
+.container-photo {
   border: black 0.15rem solid;
   gap: 1rem;
   width: 80vh;
@@ -111,4 +111,42 @@ main {
 .pic-frontend {
   width: 20vh;
   height: 20vh;
+}
+
+@media (min-width: 501px) {
+  .wrapper {
+    width: 55vh;
+    height: auto;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .container {
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2rem;
+    height: 3.5rem;
+  }
+  .menu-items .menu-item {
+    border-right: 0.4rem solid black;
+    border-radius: 2rem;
+    background-color: rgba(168, 192, 255, 0.17);
+    box-shadow: none;
+    height: 2rem;
+  }
+  .menu-item.active {
+    background-color: rgba(255, 148, 148, 1);
+  }
+  main {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .flex {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .pic-frontend {
+    width: 30vh;
+  }
 }
