@@ -119,13 +119,14 @@ main {
     height: auto;
   }
   .title {
-    font-size: 31px;
+    font-size: 30px;
   }
   .container {
     flex-direction: row;
     justify-content: space-around;
     gap: 2rem;
     height: 3.5rem;
+    padding-bottom: 2rem;
   }
   .menu-items .menu-item {
     border-right: 0.4rem solid black;
@@ -140,6 +141,7 @@ main {
   main {
     flex-direction: row-reverse;
     justify-content: space-between;
+    padding-top: 2rem;
   }
 
   .flex {
