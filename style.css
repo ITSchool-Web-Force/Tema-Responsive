@@ -50,7 +50,6 @@ h2 {
 }
 ul {
   display: flex;
-  flex-wrap: wrap;
   gap: 1em;
   padding: 0;
 }
