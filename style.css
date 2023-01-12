@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgba(237, 255, 247, 1);
+  padding: 1rem;
+}
+
+.wrapper {
+  background-color: rgba(168, 192, 255, 0.17);
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.25);
+  margin: auto;
+  padding: 1rem;
+  width: 40vh;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin-block-end: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: space-around;
+  gap: 0.25rem;
+}
+.menu-items .menu-item {
+  text-decoration: none;
+  background-color: white;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  color: black;
+  border-radius: 2rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.menu-item.active {
+  background-color: rgba(255, 148, 148, 1);
+}
+
+main {
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pic-business {
+  width: 15rem;
+  height: 20.5rem;
+  padding-bottom: 2rem;
+  padding-top: 1.5rem;
+}
+
+.digital {
+  padding-bottom: 1rem;
+  font-size: 29px;
+  text-transform: capitalize;
+  color: rgba(39, 45, 56, 1);
+}
+
+.text {
+  text-transform: capitalize;
+  font-size: 18px;
+  padding-bottom: 1rem;
+}
+
+.contact {
+  text-transform: uppercase;
+  background-color: rgba(142, 173, 213, 1);
+  color: white;
+  padding: 0.25rem;
+  border: 0 solid rgba(142, 173, 213, 1);
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.container-photo {
+  border: black 0.15rem solid;
+  gap: 1rem;
+  width: 80vh;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0 1rem 0;
+}
+
+.pic-frontend {
+  width: 20vh;
+  height: 20vh;
+}
+
+@media (min-width: 501px) {
+  .wrapper {
+    width: 55vh;
+    height: auto;
+  }
+  .title {
+    font-size: 25px;
+  }
+  .container {
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2rem;
+    height: 3.5rem;
+    padding-bottom: 2rem;
+  }
+  .menu-items .menu-item {
+    border-right: 0.4rem solid black;
+    border-radius: 2rem;
+    background-color: rgba(168, 192, 255, 0.17);
+    box-shadow: none;
+    height: 2rem;
+  }
+  .menu-item.active {
+    background-color: rgba(255, 148, 148, 1);
+  }
+  main {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-top: 2rem;
+  }
+
+  .flex {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .pic-frontend {
+    width: 30vh;
+  }
+}

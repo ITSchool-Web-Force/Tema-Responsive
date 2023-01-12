@@ -7,3 +7,5 @@
 5. Dacă nu reușești să rezolvi complet, poți face commit la ce ai, și vei cere ajutor.
 6. Fă push pe GitHub
 7. Crează un Pull Request la [proiectul principal](https://github.com/ITSchool-Web-Force/Tema-Responsive/pulls)
+
+Este responsive doar pentru min-501px, cum era in cerinta .
