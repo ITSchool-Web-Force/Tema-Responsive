@@ -1,0 +1,214 @@
+body {
+    width:20rem;
+    height:57rem;
+    margin:0;
+    font-family:"Inter";
+    background-color:  #EDFFF7;
+}
+a {
+    color: rgb(16, 16, 17);
+    text-decoration: none;
+}
+header {
+    background-color:rgb(249, 250, 250);
+    box-shadow: 0.2rem 0.2rem 0.5rem 0 rgba(0,0,0,.1);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    display: grid;
+    align-items: center;
+}
+.header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+.header ul a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 2rem;
+}
+.header .logo {
+    font-size: 2em;
+    padding-left: 1rem; 
+    grid-column: 1/2;
+    grid-row: 1/2; 
+}
+.header .menu {
+    clear: both;
+    max-height: 0; 
+    transition: max-height .2s ease-out;
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.header .menu-icon {
+    padding: 28px 20px;
+    margin-left: 20em;
+    cursor: pointer;
+    grid-column: 3/4;
+    grid-row:1/2;
+}
+.header .menu-icon .nav-icon {
+    background:#333;
+    display: block;
+    height: 2px;
+    width: 18px;
+    position: relative;
+    transition: background .2s ease-out;
+}
+header .menu-icon .nav-icon:before {
+    background-color: #333;
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    top: 5px;
+}
+header .menu-icon .nav-icon:after {
+    background-color: #333;
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    top: -5px;
+}
+.header .menu-btn {
+    display: none;
+}
+.header .menu-btn:checked ~ .menu {
+    max-height: 240px;
+}
+.header .menu-btn:checked ~ .menu-icon .nav-icon {
+    background: transparent;
+}
+.header .menu-btn:checked ~ .menu-icon .nav-icon:before {
+    transform: rotate(-45deg);
+    top: 0;
+}
+.header .menu-btn:checked ~ .menu-icon .nav-icon:after {
+    transform: rotate(45deg);
+    top: 0;
+}
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: fit-content;
+    padding: 1rem;
+    font-family: "Inter",sans-serif;
+    background:   rgba(168, 192, 255, 0.17);;
+    box-shadow: 0.5rem 0.25rem 1rem -0.25rem rgba(0, 0, 0, 0.25);
+    border-radius: 1rem;
+}
+h2 {
+    padding-top: 2rem;
+    width: 24rem;
+    font-size: 4ch;
+}
+p {
+    padding: 0.5rem;
+    width: 24rem;
+    font-size: 2ch;
+}
+.photo{ 
+    padding-top: 3rem;
+    width: 20rem;
+    height: auto;
+    margin: auto;
+}
+button { 
+    width: max-content;
+    height: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: #FFFFFF;
+    background: #8EADD5;
+    border-radius: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    align-self: center;
+}
+main {
+    align-self: center;
+}
+.funnypic {
+    padding: 2rem;
+    margin: auto;
+    width: 22rem;
+}
+@media (min-width:20rem) {
+    header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+    .header li {
+    display: inline-block;
+}
+    .header .menu {
+    max-height: none;
+}
+    .header .menu-icon {
+    display: none;
+
+}
+.container {
+    min-height: 100vh;
+    width: 120ch;
+    margin-left: 20rem;
+ 
+    background: rgba(168, 192, 255, 0.17);
+    box-shadow: 0.5rem 0.25rem 1rem -0.25rem rgba(0, 0, 0, 0.25);
+    border-radius: 1rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    height:300px;
+    column-gap: 4em;
+    font-family: "Inter",sans-serif; 
+}
+h2 {
+    width: 30rem;
+    order: 1;
+    font-size: 4ch;
+}
+p {
+    padding: 0.5rem;
+    width: 26rem;
+    order: 2;
+    font-size: 3ch;
+}
+.photo { 
+    width: auto;
+    height: 35rem;
+    order: 5;
+    margin: 0;
+    align-self: flex-end;
+}
+button { 
+    width: max-content;
+    height: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3ch;
+    color: #FFFFFF;
+    background: #8EADD5;
+    border-radius: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    order: 4;
+ }
+ main {
+    display: none;
+}
+}
+ 
