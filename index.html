@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tema-Responsive</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@700&family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+      }
+      body {
+        background: radial-gradient(
+          50% 50% at 50% 50%,
+          #ffffff 51.04%,
+          #edfff7 100%
+        );
+      }
+      .container {
+        --margin: 0.5rem;
+
+        background: rgba(168, 192, 255, 0.17);
+        box-shadow: 1px 0px 17px -6px rgba(0, 0, 0, 0.25);
+        border-radius: 0.7rem;
+        width: 44ch;
+        min-height: calc(70vh - 2 * var(--margin));
+        padding: 0.5rem 1.5rem;
+        margin: var(--margin) auto;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+      }
+      h1 {
+        font-size: 2rem;
+        font-family: "Inter", sans-serif;
+        text-transform: uppercase;
+        font-style: normal;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        padding-block: 0.35rem 0.5rem;
+        margin-block-end: 0.5rem;
+      }
+      .navigation {
+        display: flex;
+        justify-content: center;
+        gap: 1.25rem;
+      }
+      .navigation a {
+        text-decoration: none;
+        color: #000;
+        font-size: 0.75rem;
+        font-family: "Inter", sans-serif;
+        padding: 0.5rem 1.25rem;
+        margin-block: 0.5rem;
+        display: inline-block;
+        border-block-end: 0.4rem solid rgba(0, 0, 0, 0.2);
+        border-radius: 2rem;
+      }
+      .nav-item {
+        background-color: #fff;
+      }
+
+      .nav-item.active,
+      .nav-item:hover,
+      .nav-item:focus,
+      .nav-item:active {
+        background: #ff9494;
+      }
+      @media (min-width: 500px) {
+        .container {
+          width: 60ch;
+        }
+        .navigation {
+          justify-content: space-between;
+        }
+        h1 {
+          font-size: 3rem;
+        }
+        .navigation a {
+          font-size: 1.2rem;
+        }
+        .central {
+          justify-content: center;
+          margin-block-end: 0.5rem;
+        }
+        .central .idea-img {
+          width: 25rem;
+          height: auto;
+        }
+        .central h2 {
+          font-size: 2.5rem;
+          line-height: 2.5rem;
+        }
+        .central p {
+          font-size: 1.5rem;
+          line-height: 1.8rem;
+          margin-block-end: 1.5rem;
+        }
+        .central button {
+          font-size: 1.1rem;
+        }
+        .container .content-zone {
+          width: 26ch;
+          font-size: 1.25rem;
+        }
+      }
+
+      h2 {
+        color: #272d38;
+        font-size: 2rem;
+        font-family: "Inter", sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 2rem;
+        margin-block-start: 0.75rem;
+      }
+      p {
+        color: #272d38;
+        font-size: 1.2rem;
+        font-family: "Inter", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5rem;
+        margin-block: 0.8rem;
+      }
+      .idea-img {
+        width: 22.5rem;
+        height: auto;
+        display: flex;
+      }
+      button {
+        color: #fff;
+        background: #8eadd5;
+        font-size: 0.6rem;
+        font-family: "Inter", sans-serif;
+        text-transform: uppercase;
+        border-radius: 0.4rem;
+        border: none;
+        padding: 0.4rem 1.2rem;
+
+        cursor: pointer;
+      }
+      .central {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .content-zone {
+        margin-block-start: 0.8rem;
+        margin-block-end: 1.2rem;
+        margin-inline: auto;
+        width: 28ch;
+        padding: 1rem;
+        border: 1px solid #000;
+        display: flex;
+        justify-content: center;
+
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+      }
+      .first-line {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-block-end: 0.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="first-line">
+          <h1>George</h1>
+          <nav class="navigation">
+            <a href="#" class="nav-item active">acasă</a>
+            <a href="#" class="nav-item">servicii</a>
+            <a href="#" class="nav-item">contact</a>
+          </nav>
+        </div>
+        <div class="central">
+          <img
+            class="idea-img"
+            src="business-people-discussing-business-idea.png"
+            alt="Business people discussing business idea"
+            width="340"
+            height="339"
+          />
+          <h2>Building Digital <br />Products, Brands <br />& Experience</h2>
+          <p>
+            Digital Agency Is Your Online <br />Team Management Tool That<br />
+            Easy And Prompt
+          </p>
+          <button>Contact Us</button>
+        </div>
+      </header>
+      <div class="content-zone">
+        Zonă liberă, în<br />
+        care poți să<br />
+        adaugi absolut<br />
+        orice vrei
+      </div>
+    </div>
+  </body>
+</html>
