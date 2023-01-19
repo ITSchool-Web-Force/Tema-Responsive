@@ -173,22 +173,29 @@
         .container {
           width: 54rem;
           height: 60rem;
-          padding-block-start: 1rem;
+          padding-block-start: 0.5rem;
         }
         header .first-line {
           flex-direction: row;
           justify-content: space-between;
+          margin-block-end: 0;
+          margin-inline: 0.5rem;
         }
         h1 {
           font-size: 3.2rem;
         }
+        .navigation {
+          gap: 0.75rem;
+        }
         .nav-item {
           background-color: transparent;
-          font-size: 1.45rem;
+          font-size: 1.35rem;
           font-family: "Inter", sans-serif;
           padding: 0.5rem 1.5rem;
-          border-inline-end: 0.4rem solid #000;
+          border-block-end: 0;
+          border-inline-end: 0.5rem solid #000;
           border-radius: 2rem;
+          margin-block: 0 0.5rem;
           align-self: center;
         }
         .nav-item.active,
@@ -201,24 +208,25 @@
           display: flex;
           flex-direction: row-reverse;
           flex-wrap: wrap;
-          margin-block-end: 0.5rem;
+          column-gap: 5rem;
+          margin-inline-end: 1rem;
         }
         .central .idea-img {
-          width: 25rem;
+          width: 21rem;
           height: auto;
         }
         .central h2 {
-          font-size: 3rem;
-          line-height: 3rem;
+          font-size: 2.75rem;
+          line-height: 2.75rem;
           margin: 0;
         }
         .central p {
-          font-size: 1.5rem;
-          line-height: 1.8rem;
-          margin-block-end: 1.5rem;
+          font-size: 1.25rem;
+          line-height: 1.25rem;
+          margin-block: 1.5rem;
         }
         .central button {
-          font-size: 0.9rem;
+          font-size: 0.75rem;
           padding: 0.7rem 1.5rem;
         }
         .container .content-zone {
@@ -236,9 +244,9 @@
         <div class="first-line">
           <h1>George</h1>
           <nav class="navigation">
-            <a href="#" id="nav-item" class="nav-item active">acasă</a>
-            <a href="#" id="nav-item" class="nav-item">servicii</a>
-            <a href="#" id="nav-item" class="nav-item">contact</a>
+            <a href="#" class="nav-item active">acasă</a>
+            <a href="#" class="nav-item">servicii</a>
+            <a href="#" class="nav-item">contact</a>
           </nav>
         </div>
         <div class="central">
